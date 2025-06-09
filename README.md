@@ -21,7 +21,7 @@ Make sure you have the following installed:
 git clone https://github.com/tricia-adelaine/vue-portfolio.git
 cd vue-portfolio
 
-## Once repo is cloned
+### Once repo is cloned
 ```
 npm install
 ```
