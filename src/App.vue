@@ -1,26 +1,31 @@
+<!-- <script>
+// import { RouterView } from "vue-router";
+import NavBar from "./components/NavBar.vue";
+</script> -->
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <!-- <NavBar /> -->
+    <!-- <AdeDashboard /> -->
+    <router-view />
+  </div>
 </template>
-
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
+<!-- <script>
+// import AdeDashboard from './components/AdeDashboard.vue';
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
-</script>
+    NavBar,
+    // RouterView
+  },
+};
+</script> -->
 
 <style>
+html,
+body,
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  height: 100%;
+  margin: 0;
+  background-color: white;
 }
 </style>
