@@ -1,4 +1,7 @@
 # vue-dashboard
+for login
+username: tricia
+password: 1234
 
 ## Project setup
 ```
@@ -23,6 +26,3 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-for login
-username: tricia
-password: 1234
